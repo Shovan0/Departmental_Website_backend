@@ -1,0 +1,48 @@
+{
+  "department": {
+    "placement": {
+      "lastYear": "2024-25",
+      "totalPlaced": 72,
+      "topCompanies": [
+        "Infosys",
+        "TCS",
+        "Wipro"
+      ],
+      "highestPackage": "30 LPA",
+      "averagePackage": "6.5 LPA",
+      "reportLink": "/assets/placement-report-2024.pdf"
+    },
+    "timetable": [
+      {
+        "year": "First Year",
+        "table": [
+          [
+            "Mon",
+            "9:00-10:00",
+            "Maths"
+          ]
+        ]
+      }
+    ],
+    "holidays": [
+      {
+        "date": "2025-12-06",
+        "name": "holiday",
+        "noticeLink": "holiday.pdf"
+      }
+    ],
+    "fees": [
+      {
+        "head": "Tuition (per semester)",
+        "amount": "₹20,000"
+      }
+    ],
+    "syllabus": [
+      {
+        "title": "First Year Syllabus",
+        "link": "/assets/syllabus-first-year.pdf"
+      }
+    ],
+    "lastUpdated": "2025-11-30T11:44:59.320Z"
+  }
+}
