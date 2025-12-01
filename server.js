@@ -3,6 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import connectDB from "./db.js";
 import departmentPage from "./routes/departmentPage.js";
+import profilePage from "./routes/profilePage.js";
 
 dotenv.config();
 
@@ -23,6 +24,7 @@ app.get("/", (req, res) => {
   res.send("Backend server is running...");
 });
 app.use("/api", departmentPage);
+app.use("/api", profilePage); 
 
 const PORT = process.env.PORT || 5000;
 

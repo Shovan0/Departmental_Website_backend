@@ -1,0 +1,57 @@
+{
+  "photo": "https://i.ibb.co/4pDNDk1/avatar.png",
+  "basic": {
+    "name": "Arij Chowdhury",
+    "gender": "Male",
+    "dob": "18 Oct 2003",
+    "bloodGroup": "B+"
+  },
+  "academic": {
+    "roll": "23IT101",
+    "registration": "2023/IT/1299",
+    "stream": "B.Tech in Information Technology",
+    "department": "Information Technology",
+    "admissionYear": "2023",
+    "currentYear": "2nd Year",
+    "currentSemester": 3,
+    "section": "A"
+  },
+  "contact": {
+    "email": "arij.student@college.edu",
+    "phone": "+91 9876543200",
+    "alternatePhone": "+91 9900099000"
+  },
+  "address": {
+    "present": {
+      "line1": "45/B, Lake Road",
+      "city": "Kolkata",
+      "district": "Kolkata",
+      "state": "West Bengal",
+      "pin": "700029"
+    },
+    "permanent": {
+      "line1": "Village Durgapur, Near Post Office",
+      "city": "Burdwan",
+      "district": "Bardhaman",
+      "state": "West Bengal",
+      "pin": "713101"
+    }
+  },
+  "guardian": {
+    "father": {
+      "name": "Mr. Pradip Chowdhury",
+      "phone": "+91 9870012300",
+      "occupation": "Businessman"
+    },
+    "mother": {
+      "name": "Mrs. Ananya Chowdhury",
+      "phone": "+91 9000011122",
+      "occupation": "Teacher"
+    }
+  },
+  "previousMarks": [
+    { "semester": 1, "sgpa": 8.6, "result": "Passed" },
+    { "semester": 2, "sgpa": 8.9, "result": "Passed" }
+  ],
+  "certificates": []
+}
