@@ -1,17 +1,16 @@
-import express from 'express';
-import mongoose from 'mongoose';
+import express from "express";
+import mongoose from "mongoose";
+import { verifyToken } from "../middlewares/auth.js";
 
 const router = express.Router();
 
-// GET student profile by registration ID
-router.get('/profile/:id', async (req, res) => {
+// Protected route: only logged-in student or admin can access
+router.get("/profile", verifyToken(), async (req, res) => {
   try {
-    // For now, ignore req.params.id and use fixed ID
-    // const registrationId = "2023/IT/1299";
-    const registrationId = req.params.id;
+    const registrationId = req.user.id;  // ✅ from JWT token
 
     const data = await mongoose.connection.db
-      .collection('StudentProfile')
+      .collection("StudentProfile")
       .findOne({ "academic.registration": registrationId });
 
     if (!data) {
@@ -19,7 +18,9 @@ router.get('/profile/:id', async (req, res) => {
     }
 
     res.status(200).json(data);
+
   } catch (error) {
+    console.error(error);
     res.status(500).json({ message: "Error fetching data", error });
   }
 });
