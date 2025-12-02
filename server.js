@@ -5,6 +5,7 @@ import connectDB from "./db.js";
 import departmentPage from "./routes/departmentPage.js";
 import LoginLogout from "./routes/loginLogout.js";
 import profilePage from "./routes/profilePage.js";
+import studentPage from "./routes/studentPage.js";
 import cookieParser from "cookie-parser";
 import faculty from "./routes/adminRoutes/adminFaculty.js";
 import alumni from "./routes/alumni.js";
@@ -24,9 +25,11 @@ app.use(cookieParser());
 
 connectDB(); 
 
+
 app.get("/", (req, res) => {
-  res.send("Backend server is running...");
+  res.send("Backend server is running... ");
 });
+app.use("/api", studentPage);
 app.use("/api", LoginLogout);
 app.use("/api", departmentPage);
 app.use("/api", profilePage); 
