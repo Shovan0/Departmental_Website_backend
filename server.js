@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 import connectDB from "./db.js";
 import departmentPage from "./routes/departmentPage.js";
 import profilePage from "./routes/profilePage.js";
+import studentPage from "./routes/studentPage.js";
 
 dotenv.config();
 
@@ -20,9 +21,11 @@ app.use(express.json());
 
 connectDB(); 
 
+
 app.get("/", (req, res) => {
-  res.send("Backend server is running...");
+  res.send("Backend server is running... ");
 });
+app.use("/api", studentPage);
 app.use("/api", departmentPage);
 app.use("/api", profilePage); 
 
