@@ -18,16 +18,21 @@ export const getAllStudents = async (req, res) => {
 // @access  Public or Admin
 export const getStudentById = async (req, res) => {
   try {
-    const student = await Student.findById(req.params.id);
+    const student = await Student.findOne({
+      "academic.registration": req.params.id
+    });
+
     if (!student) {
       return res.status(404).json({ message: "Student not found" });
     }
+
     res.status(200).json(student);
   } catch (error) {
     console.error("Error fetching student:", error.message);
     res.status(500).json({ message: "Server error" });
   }
 };
+
 
 // @desc    Create a new student
 // @route   POST /api/students
@@ -48,14 +53,19 @@ export const createStudent = async (req, res) => {
 // @access  Admin
 export const updateStudent = async (req, res) => {
   try {
-    const updatedStudent = await Student.findByIdAndUpdate(
-      req.params.id,
+    const updatedStudent = await Student.findOneAndUpdate(
+      { "academic.registration": req.params.id }, // Match registration number
       req.body,
-      { new: true, runValidators: true }
+      {
+        new: true,
+        runValidators: true
+      }
     );
+
     if (!updatedStudent) {
       return res.status(404).json({ message: "Student not found" });
     }
+
     res.status(200).json(updatedStudent);
   } catch (error) {
     console.error("Error updating student:", error.message);
@@ -63,12 +73,13 @@ export const updateStudent = async (req, res) => {
   }
 };
 
+
 // @desc    Delete a student by ID
 // @route   DELETE /api/students/:id
 // @access  Admin
 export const deleteStudent = async (req, res) => {
   try {
-    const deletedStudent = await Student.findByIdAndDelete(req.params.id);
+    const deletedStudent = await Student.findByIdAndDelete({"academic.registration": req.params.id});
     if (!deletedStudent) {
       return res.status(404).json({ message: "Student not found" });
     }

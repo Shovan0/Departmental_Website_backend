@@ -71,8 +71,8 @@ const studentSchema = new mongoose.Schema(
       default: [],
     },
   },
-  { timestamps: true }
+  { timestamps: true, collection: "StudentProfile" }
 );
 
-const Student = mongoose.model("Student", studentSchema);
+const Student = mongoose.model("StudentProfile", studentSchema);
 export default Student;
