@@ -7,7 +7,7 @@ const router = express.Router();
 // --------------------------
 // GET ALL FACULTY
 // --------------------------
-router.get("/faculty", verifyToken(), async (req, res) => {
+router.get("/faculty", async (req, res) => {
   try {
     const allFaculty = await Faculty.find();
     // console.log(allFaculty)
