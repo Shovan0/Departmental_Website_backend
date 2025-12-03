@@ -1,116 +1,3907 @@
 [
   {
-  "photo": "https://i.ibb.co/4pDNDk1/avatar.png",
-  "basic": {
-    "name": "Shovan Nath",
-    "gender": "Male",
-    "dob": "18 Oct 2003",
-    "bloodGroup": "B+"
-  },
-  "academic": {
-    "roll": "10000222031",
-    "registration": "221000110057",
-    "stream": "B.Tech in Information Technology",
-    "department": "Information Technology",
-    "admissionYear": "2023",
-    "currentYear": "2nd Year",
-    "currentSemester": 3,
-    "section": "A"
-  },
-  "contact": {
-    "email": "shovannath2001@gmail.com",
-    "phone": "+91 9876543200",
-    "alternatePhone": "+91 9900099000"
-  },
-  "address": {
-    "present": {
-      "line1": "45/B, Lake Road",
-      "city": "Kolkata",
-      "district": "Kolkata",
-      "state": "West Bengal",
-      "pin": "700029"
+    "photo": "https://drive.google.com/open?id=1AZXqNXxP-GZeDFwaz0ZFzE1oT_mj4nnT",
+    "basic": {
+      "name": "Suvendu Biswas",
+      "gender": "Male",
+      "dob": "12 Jan 2002",
+      "bloodGroup": "A+"
     },
-    "permanent": {
-      "line1": "Village Durgapur, Near Post Office",
-      "city": "Burdwan",
-      "district": "Bardhaman",
-      "state": "West Bengal",
-      "pin": "713101"
-    }
-  },
-  "guardian": {
-    "father": {
-      "name": "Mr. Pradip Chowdhury",
-      "phone": "+91 9870012300",
-      "occupation": "Businessman"
+    "academic": {
+      "roll": "10000223059",
+      "registration": "231000120675",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2023",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "A"
     },
-    "mother": {
-      "name": "Mrs. Ananya Chowdhury",
-      "phone": "+91 9000011122",
-      "occupation": "Teacher"
-    }
-  },
-  "previousMarks": [
-    { "semester": 1, "sgpa": 8.6, "result": "Passed" },
-    { "semester": 2, "sgpa": 8.9, "result": "Passed" }
-  ],
-  "certificates": []
-},
-{
-  "photo": "https://i.ibb.co/4pDNDk1/avatar.png",
-  "basic": {
-    "name": "Dipanwita Das",
-    "gender": "Male",
-    "dob": "18 Oct 2003",
-    "bloodGroup": "B+"
-  },
-  "academic": {
-    "roll": "10000222034",
-    "registration": "221000110060",
-    "stream": "B.Tech in Information Technology",
-    "department": "Information Technology",
-    "admissionYear": "2023",
-    "currentYear": "2nd Year",
-    "currentSemester": 3,
-    "section": "A"
-  },
-  "contact": {
-    "email": "dipanwitadas2442004@gmail.com",
-    "phone": "+91 9876543200",
-    "alternatePhone": "+91 9900099000"
-  },
-  "address": {
-    "present": {
-      "line1": "45/B, Lake Road",
-      "city": "Kolkata",
-      "district": "Kolkata",
-      "state": "West Bengal",
-      "pin": "700029"
+    "contact": {
+      "email": "suvendubiswas52568@gmail.com",
+      "phone": "+91 7001930837",
+      "alternatePhone": "+91 9917695141"
     },
-    "permanent": {
-      "line1": "Village Durgapur, Near Post Office",
-      "city": "Burdwan",
-      "district": "Bardhaman",
-      "state": "West Bengal",
-      "pin": "713101"
-    }
-  },
-  "guardian": {
-    "father": {
-      "name": "Mr. Pradip Chowdhury",
-      "phone": "+91 9870012300",
-      "occupation": "Businessman"
+    "address": {
+      "present": {
+        "line1": "12 Lake View Road",
+        "city": "Kolkata",
+        "district": "Kolkata",
+        "state": "West Bengal",
+        "pin": "700001"
+      },
+      "permanent": {
+        "line1": "45/B MG Road",
+        "city": "Burdwan",
+        "district": "Burdwan",
+        "state": "West Bengal",
+        "pin": "700019"
+      }
     },
-    "mother": {
-      "name": "Mrs. Ananya Chowdhury",
-      "phone": "+91 9000011122",
-      "occupation": "Teacher"
-    }
+    "guardian": {
+      "father": {
+        "name": "Mr. Arun Biswas",
+        "phone": "+91 9818245873",
+        "occupation": "Teacher"
+      },
+      "mother": {
+        "name": "Mrs. Rina Boswas",
+        "phone": "+91 9922632275",
+        "occupation": "Engineer"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 3,
+        "sgpa": 8.2,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.6,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.84,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.83,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
   },
-  "previousMarks": [
-    { "semester": 1, "sgpa": 8.6, "result": "Passed" },
-    { "semester": 2, "sgpa": 8.9, "result": "Passed" }
-  ],
-  "certificates": []
-}
+  {
+    "photo": "https://drive.google.com/open?id=1qATYPbbKeRza6o5l9nLm6z1skWba9hdJ",
+    "basic": {
+      "name": "Ritesh Kumar",
+      "gender": "Male",
+      "dob": "05 Mar 2003",
+      "bloodGroup": "B+"
+    },
+    "academic": {
+      "roll": "10000222004",
+      "registration": "221000110030",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "B"
+    },
+    "contact": {
+      "email": "riteshkumarlsarai@gmail.com",
+      "phone": "+91 9905411917",
+      "alternatePhone": "+91 9922632275"
+    },
+    "address": {
+      "present": {
+        "line1": "45/B MG Road",
+        "city": "Burdwan",
+        "district": "Burdwan",
+        "state": "West Bengal",
+        "pin": "700019"
+      },
+      "permanent": {
+        "line1": "Near Central Bus Stand",
+        "city": "Siliguri",
+        "district": "Siliguri",
+        "state": "West Bengal",
+        "pin": "713101"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Prakash Sharma",
+        "phone": "+91 9843368882",
+        "occupation": "Engineer"
+      },
+      "mother": {
+        "name": "Mrs. Sunita Sharma",
+        "phone": "+91 9945772643",
+        "occupation": "Business"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 9.63,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 9.63,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 9.1,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.55,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.84,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.67,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1gwytb9D0la_E4oc-TtEEQHTzuQbHnOtd",
+    "basic": {
+      "name": "Priyanshu Das",
+      "gender": "Male",
+      "dob": "19 Jul 2002",
+      "bloodGroup": "O+"
+    },
+    "academic": {
+      "roll": "10000222066",
+      "registration": "221000112129",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "C"
+    },
+    "contact": {
+      "email": "das88priyanshu@gmail.com",
+      "phone": "+91 7519970776",
+      "alternatePhone": "+91 9945772643"
+    },
+    "address": {
+      "present": {
+        "line1": "Near Central Bus Stand",
+        "city": "Siliguri",
+        "district": "Siliguri",
+        "state": "West Bengal",
+        "pin": "713101"
+      },
+      "permanent": {
+        "line1": "Hilltop Colony 3rd Lane",
+        "city": "Asansol",
+        "district": "Asansol",
+        "state": "West Bengal",
+        "pin": "713204"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Tapas Baran Das",
+        "phone": "+91 9811405176",
+        "occupation": "Business"
+      },
+      "mother": {
+        "name": "Mrs. Sadhana Das",
+        "phone": "+91 9959583119",
+        "occupation": "Homemaker"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 8.34,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 8.65,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.15,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.3,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 9.12,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 9.08,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=10SWk5E-Yi1F8y3rsU6i3bBkIAq5sgTsQ",
+    "basic": {
+      "name": "Barnik Ghosh",
+      "gender": "Male",
+      "dob": "28 Nov 2003",
+      "bloodGroup": "AB+"
+    },
+    "academic": {
+      "roll": "10000222065",
+      "registration": "221000112123",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "D"
+    },
+    "contact": {
+      "email": "ghoshbarnik2003@gmail.com",
+      "phone": "+91 9330220680",
+      "alternatePhone": "+91 9959583119"
+    },
+    "address": {
+      "present": {
+        "line1": "Hilltop Colony 3rd Lane",
+        "city": "Asansol",
+        "district": "Asansol",
+        "state": "West Bengal",
+        "pin": "713204"
+      },
+      "permanent": {
+        "line1": "34 Garden Lane",
+        "city": "Durgapur",
+        "district": "Durgapur",
+        "state": "West Bengal",
+        "pin": "721602"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Sandeep Ghosh",
+        "phone": "+91 9866048351",
+        "occupation": "Govt Employee"
+      },
+      "mother": {
+        "name": "Mrs. Priya Ghosh",
+        "phone": "+91 9941934395",
+        "occupation": "Govt Employee"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 7.5,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 9.07,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.55,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.9,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 9.44,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 9.08,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1nmXENqDZ-r4m9vmz_olm6fR2GLpWkwXw",
+    "basic": {
+      "name": "Raj Anand ",
+      "gender": "Male",
+      "dob": "14 Feb 2002",
+      "bloodGroup": "A-"
+    },
+    "academic": {
+      "roll": "10000222062",
+      "registration": "221000110088",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "E"
+    },
+    "contact": {
+      "email": "rajanandreads@gmail.com",
+      "phone": "+91 9973920454",
+      "alternatePhone": "+91 9941934395"
+    },
+    "address": {
+      "present": {
+        "line1": "34 Garden Lane",
+        "city": "Durgapur",
+        "district": "Durgapur",
+        "state": "West Bengal",
+        "pin": "721602"
+      },
+      "permanent": {
+        "line1": "7 Park Street",
+        "city": "Howrah",
+        "district": "Howrah",
+        "state": "West Bengal",
+        "pin": "711101"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Kaushik Singh",
+        "phone": "+91 9895379314",
+        "occupation": "Govt Employee"
+      },
+      "mother": {
+        "name": "Mrs. Sudha Singh",
+        "phone": "+91 9970225318",
+        "occupation": "Nurse"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 9.1,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 9.3,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.85,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.85,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 9.27,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 9.14,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1xJUei6BXzRbhs3KOSL7q5hZ7nPyYsv2h",
+    "basic": {
+      "name": "Barnik Ganguly ",
+      "gender": "Male",
+      "dob": "30 Aug 2003",
+      "bloodGroup": "B-"
+    },
+    "academic": {
+      "roll": "10000222046",
+      "registration": "221000110072",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "V"
+    },
+    "contact": {
+      "email": "barnikganguly@gmail.com",
+      "phone": "+91 7679291827",
+      "alternatePhone": "+91 9970225318"
+    },
+    "address": {
+      "present": {
+        "line1": "7 Park Street",
+        "city": "Howrah",
+        "district": "Howrah",
+        "state": "West Bengal",
+        "pin": "711101"
+      },
+      "permanent": {
+        "line1": "89 Riverbank Enclave",
+        "city": "Kalyani",
+        "district": "Kalyani",
+        "state": "West Bengal",
+        "pin": "741235"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Ramesh Ganguli",
+        "phone": "+91 9863959281",
+        "occupation": "Nurse"
+      },
+      "mother": {
+        "name": "Mrs. Rupa Ganguli",
+        "phone": "+91 9933567422",
+        "occupation": "Doctor"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 7.17,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 7.71,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 7.9,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 7.9,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.72,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.71,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1PjJb923YeKtC-ltf7OfM5AlB1JNwT7rF",
+    "basic": {
+      "name": "Sangita Rakshit",
+      "gender": "Female",
+      "dob": "07 Sep 2002",
+      "bloodGroup": "O-"
+    },
+    "academic": {
+      "roll": "10000222068",
+      "registration": "221000112254",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "W"
+    },
+    "contact": {
+      "email": "sangitarakshit0again@gmail.com",
+      "phone": "+91 6289785671",
+      "alternatePhone": "+91 9933567422"
+    },
+    "address": {
+      "present": {
+        "line1": "89 Riverbank Enclave",
+        "city": "Kalyani",
+        "district": "Kalyani",
+        "state": "West Bengal",
+        "pin": "741235"
+      },
+      "permanent": {
+        "line1": "Old Market Area",
+        "city": "Haldia",
+        "district": "Haldia",
+        "state": "West Bengal",
+        "pin": "721607"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Tanmoy Rakshi",
+        "phone": "+91 9832298702",
+        "occupation": "Doctor"
+      },
+      "mother": {
+        "name": "Mrs. Trina Rakshit",
+        "phone": "+91 9951039446",
+        "occupation": "Shop Owner"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 6.37,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 6.73,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 6.6,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 6.85,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 7.52,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.42,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1OBqqBKmBUyNI3TBpQr3H0KkFGTzym454",
+    "basic": {
+      "name": "Bikramjit Sarkar",
+      "gender": "Male",
+      "dob": "22 Dec 2003",
+      "bloodGroup": "AB-"
+    },
+    "academic": {
+      "roll": "10000222064",
+      "registration": "221000112119",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2023",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "X"
+    },
+    "contact": {
+      "email": "bikramjitsarkar008@gmail.com",
+      "phone": "+91 8436905830",
+      "alternatePhone": "+91 9951039446"
+    },
+    "address": {
+      "present": {
+        "line1": "Old Market Area",
+        "city": "Haldia",
+        "district": "Haldia",
+        "state": "West Bengal",
+        "pin": "721607"
+      },
+      "permanent": {
+        "line1": "22 Sunshine Apartments",
+        "city": "Midnapore",
+        "district": "Midnapore",
+        "state": "West Bengal",
+        "pin": "721101"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Jayanta Sarka",
+        "phone": "+91 9825148337",
+        "occupation": "Shop Owner"
+      },
+      "mother": {
+        "name": "Mrs. Jaya Sarkar",
+        "phone": "+91 9914213143",
+        "occupation": "Banker"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 7.11,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 8.59,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.25,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.35,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 9.04,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.96,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=13W5IKj38yf-df1d6Z-D5RQnvui5DDSEk",
+    "basic": {
+      "name": "Shovan Nath",
+      "gender": "Male",
+      "dob": "03 May 2002",
+      "bloodGroup": "B+"
+    },
+    "academic": {
+      "roll": "10000222031",
+      "registration": "221000110057",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "Y"
+    },
+    "contact": {
+      "email": "shovannath4039@gmail.com",
+      "phone": "+91 9007074039",
+      "alternatePhone": "+91 9914213143"
+    },
+    "address": {
+      "present": {
+        "line1": "22 Sunshine Apartments",
+        "city": "Midnapore",
+        "district": "Midnapore",
+        "state": "West Bengal",
+        "pin": "721101"
+      },
+      "permanent": {
+        "line1": "Green Valley Complex",
+        "city": "Malda",
+        "district": "Malda",
+        "state": "West Bengal",
+        "pin": "732101"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Sanjay Nath",
+        "phone": "+91 9827711601",
+        "occupation": "Banker"
+      },
+      "mother": {
+        "name": "Mrs. Soma Nath",
+        "phone": "+91 9919786763",
+        "occupation": "Lecturer"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 8.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 8.6,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.3,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.3,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 9.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.4,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1JPjsS1rUfhVM88tdn7v7PF0eaj3pD2PS",
+    "basic": {
+      "name": "Rupam Sardar",
+      "gender": "Male",
+      "dob": "10 Oct 2003",
+      "bloodGroup": "A+"
+    },
+    "academic": {
+      "roll": "10000222054",
+      "registration": "221000110080",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "Z"
+    },
+    "contact": {
+      "email": "sardarrupam123@gmail.com",
+      "phone": "+91 7866098190",
+      "alternatePhone": "+91 9919786763"
+    },
+    "address": {
+      "present": {
+        "line1": "Green Valley Complex",
+        "city": "Malda",
+        "district": "Malda",
+        "state": "West Bengal",
+        "pin": "732101"
+      },
+      "permanent": {
+        "line1": "12 Lake View Road",
+        "city": "Kolkata",
+        "district": "Kolkata",
+        "state": "West Bengal",
+        "pin": "700001"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Manab Sardar",
+        "phone": "+91 9849115708",
+        "occupation": "Lecturer"
+      },
+      "mother": {
+        "name": "Mrs. Mita Sardar",
+        "phone": "+91 9917695141",
+        "occupation": "Teacher"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 9.17,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 9.76,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 9.3,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 9.75,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 9.8,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 9.71,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1odhFIhJvCGWbT4uPD4TPvuYcUSrw8f0L",
+    "basic": {
+      "name": "Dipanwita Das",
+      "gender": "Female",
+      "dob": "12 Jan 2002",
+      "bloodGroup": "A+"
+    },
+    "academic": {
+      "roll": "10000222034",
+      "registration": "221000110060",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "A"
+    },
+    "contact": {
+      "email": "missdas2022@gmail.com",
+      "phone": "+91 7047455197",
+      "alternatePhone": "+91 9917695141"
+    },
+    "address": {
+      "present": {
+        "line1": "12 Lake View Road",
+        "city": "Kolkata",
+        "district": "Kolkata",
+        "state": "West Bengal",
+        "pin": "700001"
+      },
+      "permanent": {
+        "line1": "45/B MG Road",
+        "city": "Burdwan",
+        "district": "Burdwan",
+        "state": "West Bengal",
+        "pin": "700019"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Arun Das",
+        "phone": "+91 9818245873",
+        "occupation": "Teacher"
+      },
+      "mother": {
+        "name": "Mrs. Mira Das",
+        "phone": "+91 9922632275",
+        "occupation": "Engineer"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 8.54,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 7.59,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 7.7,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.15,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.74,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.83,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1OPga9NzldddteHY212H_GHva_d3nK93A",
+    "basic": {
+      "name": "Soumili Panday",
+      "gender": "Female",
+      "dob": "05 Mar 2003",
+      "bloodGroup": "B+"
+    },
+    "academic": {
+      "roll": "10000223065",
+      "registration": "231000120681",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2023",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "B"
+    },
+    "contact": {
+      "email": "soumilipanday8@gmail.com",
+      "phone": "+91 9547882322",
+      "alternatePhone": "+91 9922632275"
+    },
+    "address": {
+      "present": {
+        "line1": "45/B MG Road",
+        "city": "Burdwan",
+        "district": "Burdwan",
+        "state": "West Bengal",
+        "pin": "700019"
+      },
+      "permanent": {
+        "line1": "Near Central Bus Stand",
+        "city": "Siliguri",
+        "district": "Siliguri",
+        "state": "West Bengal",
+        "pin": "713101"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Prakash Panday",
+        "phone": "+91 9843368882",
+        "occupation": "Engineer"
+      },
+      "mother": {
+        "name": "Mrs Sumita Panday",
+        "phone": "+91 9945772643",
+        "occupation": "Business"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 3,
+        "sgpa": 7.15,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.05,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.8,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.04,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=15RIOqhCLC5Cyb7GnoM9urS3bZRM4nksy",
+    "basic": {
+      "name": "Rupam Bhadra ",
+      "gender": "Male",
+      "dob": "19 Jul 2002",
+      "bloodGroup": "O+"
+    },
+    "academic": {
+      "roll": "10000222057",
+      "registration": "221000110083",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "C"
+    },
+    "contact": {
+      "email": "rupambhadra478@gmail.com",
+      "phone": "+91 9123707357",
+      "alternatePhone": "+91 9945772643"
+    },
+    "address": {
+      "present": {
+        "line1": "Near Central Bus Stand",
+        "city": "Siliguri",
+        "district": "Siliguri",
+        "state": "West Bengal",
+        "pin": "713101"
+      },
+      "permanent": {
+        "line1": "Hilltop Colony 3rd Lane",
+        "city": "Asansol",
+        "district": "Asansol",
+        "state": "West Bengal",
+        "pin": "713204"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Dipankar Bhadra",
+        "phone": "+91 9811405176",
+        "occupation": "Business"
+      },
+      "mother": {
+        "name": "Mrs. Lipika Bhadra",
+        "phone": "+91 9959583119",
+        "occupation": "Homemaker"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 9.54,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 9.27,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 9.1,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.8,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.52,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.75,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1gzyfsX_Ifr5H1y76S8qky1bEjdZihvO-",
+    "basic": {
+      "name": "Raman tamang",
+      "gender": "Male",
+      "dob": "28 Nov 2003",
+      "bloodGroup": "AB+"
+    },
+    "academic": {
+      "roll": "10000222033",
+      "registration": "221000110059",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "D"
+    },
+    "contact": {
+      "email": "ramantamang2003@gmail.com",
+      "phone": "+91 8101413163",
+      "alternatePhone": "+91 9959583119"
+    },
+    "address": {
+      "present": {
+        "line1": "Hilltop Colony 3rd Lane",
+        "city": "Asansol",
+        "district": "Asansol",
+        "state": "West Bengal",
+        "pin": "713204"
+      },
+      "permanent": {
+        "line1": "34 Garden Lane",
+        "city": "Durgapur",
+        "district": "Durgapur",
+        "state": "West Bengal",
+        "pin": "721602"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Sandeep Tamang",
+        "phone": "+91 9866048351",
+        "occupation": "Homemaker"
+      },
+      "mother": {
+        "name": "Mrs. Priya Tamang",
+        "phone": "+91 9941934395",
+        "occupation": "Govt Employee"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 7.86,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 8.71,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 7.85,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.4,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.5,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1vUqn_xz-4HPH4KheG0sc4bB-gwziHpnw",
+    "basic": {
+      "name": "Arij Chowdhury ",
+      "gender": "Male",
+      "dob": "14 Feb 2002",
+      "bloodGroup": "A-"
+    },
+    "academic": {
+      "roll": "10000222058",
+      "registration": "221000110084",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "E"
+    },
+    "contact": {
+      "email": "arij.chowdhuryr@gmail.com",
+      "phone": "+91 9866048351",
+      "alternatePhone": "+91 9941934395"
+    },
+    "address": {
+      "present": {
+        "line1": "34 Garden Lane",
+        "city": "Durgapur",
+        "district": "Durgapur",
+        "state": "West Bengal",
+        "pin": "721602"
+      },
+      "permanent": {
+        "line1": "7 Park Street",
+        "city": "Howrah",
+        "district": "Howrah",
+        "state": "West Bengal",
+        "pin": "711101"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Kaushik Das",
+        "phone": "+91 9895379314",
+        "occupation": "Govt Employee"
+      },
+      "mother": {
+        "name": "Mrs. Kabita Das",
+        "phone": "+91 9970225318",
+        "occupation": "Nurse"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 7.86,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 8.15,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.05,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.3,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.92,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.75,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1TtNsklMFkFJmn8gfnlhI6OmZNTz-Mq6U",
+    "basic": {
+      "name": "Sraboni Duley ",
+      "gender": "Female",
+      "dob": "30 Aug 2003",
+      "bloodGroup": "B-"
+    },
+    "academic": {
+      "roll": "10000223056",
+      "registration": "231000120672",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2023",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "V"
+    },
+    "contact": {
+      "email": "srabonibdy@gmail.com",
+      "phone": "+91 6289602126",
+      "alternatePhone": "+91 9970225318"
+    },
+    "address": {
+      "present": {
+        "line1": "7 Park Street",
+        "city": "Howrah",
+        "district": "Howrah",
+        "state": "West Bengal",
+        "pin": "711101"
+      },
+      "permanent": {
+        "line1": "89 Riverbank Enclave",
+        "city": "Kalyani",
+        "district": "Kalyani",
+        "state": "West Bengal",
+        "pin": "741235"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Ramesh Banerjee",
+        "phone": "+91 9863959281",
+        "occupation": "Nurse"
+      },
+      "mother": {
+        "name": "Mrs. Rupa Banerjee",
+        "phone": "+91 9933567422",
+        "occupation": "Doctor"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 3,
+        "sgpa": 6.7,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 6.3,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 7.12,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 6.71,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1Iu6F0qZLgidUGJBIoTNK4eZUaLOLMeae",
+    "basic": {
+      "name": "Srijeeb Naskar ",
+      "gender": "Male",
+      "dob": "07 Sep 2002",
+      "bloodGroup": "O-"
+    },
+    "academic": {
+      "roll": "10000222055",
+      "registration": "221000110081",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "W"
+    },
+    "contact": {
+      "email": "srijeebn@gmail.com",
+      "phone": "+91 8240364362",
+      "alternatePhone": "+91 9933567422"
+    },
+    "address": {
+      "present": {
+        "line1": "89 Riverbank Enclave",
+        "city": "Kalyani",
+        "district": "Kalyani",
+        "state": "West Bengal",
+        "pin": "741235"
+      },
+      "permanent": {
+        "line1": "Old Market Area",
+        "city": "Haldia",
+        "district": "Haldia",
+        "state": "West Bengal",
+        "pin": "721607"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Tanmoy Paul",
+        "phone": "+91 9832298702",
+        "occupation": "Doctor"
+      },
+      "mother": {
+        "name": "Mrs. Trina Paul",
+        "phone": "+91 9951039446",
+        "occupation": "Shop Owner"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 7.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 7.2,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 7.5,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 7.8,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.1,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1yvBXU3E07P3FIfbh4rPmH4HeyQZwTAcP",
+    "basic": {
+      "name": "Aditi Gorai ",
+      "gender": "Female",
+      "dob": "22 Dec 2003",
+      "bloodGroup": "AB-"
+    },
+    "academic": {
+      "roll": "10000222040",
+      "registration": "221000110066",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "X"
+    },
+    "contact": {
+      "email": "aditigorai919@gmail.com",
+      "phone": "+91 7501101490",
+      "alternatePhone": "+91 9951039446"
+    },
+    "address": {
+      "present": {
+        "line1": "Old Market Area",
+        "city": "Haldia",
+        "district": "Haldia",
+        "state": "West Bengal",
+        "pin": "721607"
+      },
+      "permanent": {
+        "line1": "22 Sunshine Apartments",
+        "city": "Midnapore",
+        "district": "Midnapore",
+        "state": "West Bengal",
+        "pin": "721101"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Jayanta Dutta",
+        "phone": "+91 9825148337",
+        "occupation": "Shop Owner"
+      },
+      "mother": {
+        "name": "Mrs. Jaya Dutta",
+        "phone": "+91 9914213143",
+        "occupation": "Banker"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 9.26,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 9.27,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.56,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 9.6,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 9.44,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 9.54,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1rWvQrClZiS9BsJ2OhJyJ1PblmYTBqjD2",
+    "basic": {
+      "name": "Sayan Mallick",
+      "gender": "Male",
+      "dob": "03 May 2002",
+      "bloodGroup": "B+"
+    },
+    "academic": {
+      "roll": "10000222056",
+      "registration": "221000110082",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "Y"
+    },
+    "contact": {
+      "email": "ray423835@gmail.com",
+      "phone": "+91 9474903253",
+      "alternatePhone": "+91 9914213143"
+    },
+    "address": {
+      "present": {
+        "line1": "22 Sunshine Apartments",
+        "city": "Midnapore",
+        "district": "Midnapore",
+        "state": "West Bengal",
+        "pin": "721101"
+      },
+      "permanent": {
+        "line1": "Green Valley Complex",
+        "city": "Malda",
+        "district": "Malda",
+        "state": "West Bengal",
+        "pin": "732101"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Harsh Agarwal",
+        "phone": "+91 9827711601",
+        "occupation": "Banker"
+      },
+      "mother": {
+        "name": "Mrs. Hema Agarwal",
+        "phone": "+91 9919786763",
+        "occupation": "Lecturer"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 8.84,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 8.88,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.45,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.85,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 9.24,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 9.21,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1ywcZK0tYBpVlZ2T7dvQNweGfZhNNjiD6",
+    "basic": {
+      "name": "Arpan Kumar Paul",
+      "gender": "Male",
+      "dob": "10 Oct 2003",
+      "bloodGroup": "A+"
+    },
+    "academic": {
+      "roll": "10000222049",
+      "registration": "221000110075",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "Z"
+    },
+    "contact": {
+      "email": "arpanpaul59@gmail.com",
+      "phone": "+91 9073560976",
+      "alternatePhone": "+91 9919786763"
+    },
+    "address": {
+      "present": {
+        "line1": "Green Valley Complex",
+        "city": "Malda",
+        "district": "Malda",
+        "state": "West Bengal",
+        "pin": "732101"
+      },
+      "permanent": {
+        "line1": "12 Lake View Road",
+        "city": "Kolkata",
+        "district": "Kolkata",
+        "state": "West Bengal",
+        "pin": "700001"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Manab Sen",
+        "phone": "+91 9849115708",
+        "occupation": "Lecturer"
+      },
+      "mother": {
+        "name": "Mrs. Mita Sen",
+        "phone": "+91 9917695141",
+        "occupation": "Teacher"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 8.4,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 8.15,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 7.85,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 9.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 9.32,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 9.21,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1vtfYVWTmw9yY5Wc5g6PL6Fm0yPj_sbWE",
+    "basic": {
+      "name": "Mayank Raj",
+      "gender": "Male",
+      "dob": "12 Jan 2002",
+      "bloodGroup": "A+"
+    },
+    "academic": {
+      "roll": "10000222003",
+      "registration": "221000110029",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "A"
+    },
+    "contact": {
+      "email": "vmayank0123@gmail.com",
+      "phone": "+91 9304618177",
+      "alternatePhone": "+91 9917695141"
+    },
+    "address": {
+      "present": {
+        "line1": "12 Lake View Road",
+        "city": "Kolkata",
+        "district": "Kolkata",
+        "state": "West Bengal",
+        "pin": "700001"
+      },
+      "permanent": {
+        "line1": "45/B MG Road",
+        "city": "Burdwan",
+        "district": "Burdwan",
+        "state": "West Bengal",
+        "pin": "700019"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Arun Roy",
+        "phone": "+91 9818245873",
+        "occupation": "Teacher"
+      },
+      "mother": {
+        "name": "Mrs. Rina Roy",
+        "phone": "+91 9922632275",
+        "occupation": "Engineer"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 9.31,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 9.61,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.5,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 9.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 9.7,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 9.52,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1ASVgtFJr5bYE483vTAekqmF4xwGnBNq0",
+    "basic": {
+      "name": "Nityananda Dewan",
+      "gender": "Male",
+      "dob": "05 Mar 2003",
+      "bloodGroup": "B+"
+    },
+    "academic": {
+      "roll": "10000223054",
+      "registration": "231000120670",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2023",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "B"
+    },
+    "contact": {
+      "email": "nityanandadewan40498@gmail.com",
+      "phone": "+91 8768662874",
+      "alternatePhone": "+91 9922632275"
+    },
+    "address": {
+      "present": {
+        "line1": "45/B MG Road",
+        "city": "Burdwan",
+        "district": "Burdwan",
+        "state": "West Bengal",
+        "pin": "700019"
+      },
+      "permanent": {
+        "line1": "Near Central Bus Stand",
+        "city": "Siliguri",
+        "district": "Siliguri",
+        "state": "West Bengal",
+        "pin": "713101"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Prakash Sharma",
+        "phone": "+91 9843368882",
+        "occupation": "Engineer"
+      },
+      "mother": {
+        "name": "Mrs. Sunita Sharma",
+        "phone": "+91 9945772643",
+        "occupation": "Business"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 3,
+        "sgpa": 6.8,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 6.85,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.08,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 7.88,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1QfaNT8FH1QknB3tnMtoayMwv06oOOgrr",
+    "basic": {
+      "name": "Zinat Habiba",
+      "gender": "Female",
+      "dob": "19 Jul 2002",
+      "bloodGroup": "O+"
+    },
+    "academic": {
+      "roll": "10000222002",
+      "registration": "221000110028",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "C"
+    },
+    "contact": {
+      "email": "zinathabiba0@gmail.com",
+      "phone": "+91 7318765413",
+      "alternatePhone": "+91 9945772643"
+    },
+    "address": {
+      "present": {
+        "line1": "Near Central Bus Stand",
+        "city": "Siliguri",
+        "district": "Siliguri",
+        "state": "West Bengal",
+        "pin": "713101"
+      },
+      "permanent": {
+        "line1": "Hilltop Colony 3rd Lane",
+        "city": "Asansol",
+        "district": "Asansol",
+        "state": "West Bengal",
+        "pin": "713204"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Dipankar Ghosh",
+        "phone": "+91 9811405176",
+        "occupation": "Business"
+      },
+      "mother": {
+        "name": "Mrs. Lipika Ghosh",
+        "phone": "+91 9959583119",
+        "occupation": "Homemaker"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 9.23,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 9.49,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.5,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 9.1,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 9.04,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 9.17,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=14TDonj-a4d4i8To7LVFlI4Ol0LD-8YW9",
+    "basic": {
+      "name": "Hasibul Pailan ",
+      "gender": "Male",
+      "dob": "28 Nov 2003",
+      "bloodGroup": "AB+"
+    },
+    "academic": {
+      "roll": "10000222026",
+      "registration": "221000110052",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "D"
+    },
+    "contact": {
+      "email": "hasibulpailan8@gmail.com",
+      "phone": "+91 9330266857",
+      "alternatePhone": "+91 9959583119"
+    },
+    "address": {
+      "present": {
+        "line1": "Hilltop Colony 3rd Lane",
+        "city": "Asansol",
+        "district": "Asansol",
+        "state": "West Bengal",
+        "pin": "713204"
+      },
+      "permanent": {
+        "line1": "34 Garden Lane",
+        "city": "Durgapur",
+        "district": "Durgapur",
+        "state": "West Bengal",
+        "pin": "721602"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Sandeep Singh",
+        "phone": "+91 9866048351",
+        "occupation": "Homemaker"
+      },
+      "mother": {
+        "name": "Mrs. Priya Singh",
+        "phone": "+91 9941934395",
+        "occupation": "Govt Employee"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 8.54,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 8.32,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.05,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.05,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.64,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.13,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=18WuClKEMOy0-R7d_Z9VWVMJQnFMqHnAs",
+    "basic": {
+      "name": "Rupam Das",
+      "gender": "Male",
+      "dob": "14 Feb 2002",
+      "bloodGroup": "A-"
+    },
+    "academic": {
+      "roll": "10000222067",
+      "registration": "221000112242",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "1800",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "E"
+    },
+    "contact": {
+      "email": "rupamush1219@gmail.com",
+      "phone": "+91 7319360328",
+      "alternatePhone": "+91 9941934395"
+    },
+    "address": {
+      "present": {
+        "line1": "34 Garden Lane",
+        "city": "Durgapur",
+        "district": "Durgapur",
+        "state": "West Bengal",
+        "pin": "721602"
+      },
+      "permanent": {
+        "line1": "7 Park Street",
+        "city": "Howrah",
+        "district": "Howrah",
+        "state": "West Bengal",
+        "pin": "711101"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Kaushik Das",
+        "phone": "+91 9895379314",
+        "occupation": "Govt Employee"
+      },
+      "mother": {
+        "name": "Mrs. Kabita Das",
+        "phone": "+91 9970225318",
+        "occupation": "Nurse"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 9.9,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 8.8,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 7.7,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 6.6,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 5.5,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 4.4,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1_tjeR-guZKBcPJNlLMXU0654F-B-3FAE",
+    "basic": {
+      "name": "Sk Mijanur Rahaman",
+      "gender": "Male",
+      "dob": "30 Aug 2003",
+      "bloodGroup": "B-"
+    },
+    "academic": {
+      "roll": "10000222038",
+      "registration": "221000110064",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "V"
+    },
+    "contact": {
+      "email": "skmijanurrahaman1314@gmail.com",
+      "phone": "+91 6295450146",
+      "alternatePhone": "+91 9970225318"
+    },
+    "address": {
+      "present": {
+        "line1": "7 Park Street",
+        "city": "Howrah",
+        "district": "Howrah",
+        "state": "West Bengal",
+        "pin": "711101"
+      },
+      "permanent": {
+        "line1": "89 Riverbank Enclave",
+        "city": "Kalyani",
+        "district": "Kalyani",
+        "state": "West Bengal",
+        "pin": "741235"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Ramesh Banerjee",
+        "phone": "+91 9863959281",
+        "occupation": "Nurse"
+      },
+      "mother": {
+        "name": "Mrs. Rupa Banerjee",
+        "phone": "+91 9933567422",
+        "occupation": "Doctor"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 9.23,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 8.95,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.1,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.4,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 9.12,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.63,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1GnN2KkNtdQq12hh-CZSg_7r25CjTPvel",
+    "basic": {
+      "name": "Prince kumar",
+      "gender": "Male",
+      "dob": "07 Sep 2002",
+      "bloodGroup": "O-"
+    },
+    "academic": {
+      "roll": "10000222051",
+      "registration": "221000110077",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "W"
+    },
+    "contact": {
+      "email": "prince906567@gmail.com",
+      "phone": "+91 9693575456",
+      "alternatePhone": "+91 9933567422"
+    },
+    "address": {
+      "present": {
+        "line1": "89 Riverbank Enclave",
+        "city": "Kalyani",
+        "district": "Kalyani",
+        "state": "West Bengal",
+        "pin": "741235"
+      },
+      "permanent": {
+        "line1": "Old Market Area",
+        "city": "Haldia",
+        "district": "Haldia",
+        "state": "West Bengal",
+        "pin": "721607"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Tanmoy Paul",
+        "phone": "+91 9832298702",
+        "occupation": "Doctor"
+      },
+      "mother": {
+        "name": "Mrs. Trina Paul",
+        "phone": "+91 9951039446",
+        "occupation": "Shop Owner"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 8.9,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 8.8,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.4,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.6,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.7,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.6,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1evxF71EHYJjNjb9_-jZ_NpBqXEWt6yyh",
+    "basic": {
+      "name": "Saswata Das ",
+      "gender": "Male",
+      "dob": "22 Dec 2003",
+      "bloodGroup": "AB-"
+    },
+    "academic": {
+      "roll": "10000222063",
+      "registration": "221000112118",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "X"
+    },
+    "contact": {
+      "email": "sdcrosssb123@gmail.com",
+      "phone": "+91 7605830307",
+      "alternatePhone": "+91 9951039446"
+    },
+    "address": {
+      "present": {
+        "line1": "Old Market Area",
+        "city": "Haldia",
+        "district": "Haldia",
+        "state": "West Bengal",
+        "pin": "721607"
+      },
+      "permanent": {
+        "line1": "22 Sunshine Apartments",
+        "city": "Midnapore",
+        "district": "Midnapore",
+        "state": "West Bengal",
+        "pin": "721101"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Jayanta Dutta",
+        "phone": "+91 9825148337",
+        "occupation": "Shop Owner"
+      },
+      "mother": {
+        "name": "Mrs. Jaya Dutta",
+        "phone": "+91 9914213143",
+        "occupation": "Banker"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 7.17,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 7.39,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.15,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.37,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.45,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 7.96,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1rAck2kqAZEZTsFrI4Fy7qLITb_V5xa7e",
+    "basic": {
+      "name": "Roni Singh ",
+      "gender": "Male",
+      "dob": "03 May 2002",
+      "bloodGroup": "B+"
+    },
+    "academic": {
+      "roll": "10000222059",
+      "registration": "221000110085",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "Y"
+    },
+    "contact": {
+      "email": "singhroni2894@gmail.com",
+      "phone": "+91 9825148337",
+      "alternatePhone": "+91 9914213143"
+    },
+    "address": {
+      "present": {
+        "line1": "22 Sunshine Apartments",
+        "city": "Midnapore",
+        "district": "Midnapore",
+        "state": "West Bengal",
+        "pin": "721101"
+      },
+      "permanent": {
+        "line1": "Green Valley Complex",
+        "city": "Malda",
+        "district": "Malda",
+        "state": "West Bengal",
+        "pin": "732101"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Harsh Agarwal",
+        "phone": "+91 7478256100",
+        "occupation": "Banker"
+      },
+      "mother": {
+        "name": "Mrs. Hema Agarwal",
+        "phone": "+91 9919786763",
+        "occupation": "Lecturer"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 7.86,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 8.2,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.2,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.65,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.56,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.5,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1z96a5RJzsxQXaGGRSaDWxdIgjDVXjlmR",
+    "basic": {
+      "name": "Wasim Aktar ",
+      "gender": "Male",
+      "dob": "10 Oct 2003",
+      "bloodGroup": "A+"
+    },
+    "academic": {
+      "roll": "10000222061",
+      "registration": "221000110087",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "Z"
+    },
+    "contact": {
+      "email": "wasimaktar2402@gmail.com",
+      "phone": "+91 8391921618",
+      "alternatePhone": "+91 9919786763"
+    },
+    "address": {
+      "present": {
+        "line1": "Green Valley Complex",
+        "city": "Malda",
+        "district": "Malda",
+        "state": "West Bengal",
+        "pin": "732101"
+      },
+      "permanent": {
+        "line1": "12 Lake View Road",
+        "city": "Kolkata",
+        "district": "Kolkata",
+        "state": "West Bengal",
+        "pin": "700001"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Manab Sen",
+        "phone": "+91 9849115708",
+        "occupation": "Lecturer"
+      },
+      "mother": {
+        "name": "Mrs. Mita Sen",
+        "phone": "+91 9917695141",
+        "occupation": "Teacher"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 7.6,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 8.1,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.4,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.3,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.38,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1nxy-t7sWZE9-LgDROsGRgRovsfvch2WO",
+    "basic": {
+      "name": "Ankita Chakraborty ",
+      "gender": "Female",
+      "dob": "12 Jan 2002",
+      "bloodGroup": "A+"
+    },
+    "academic": {
+      "roll": "10000223061",
+      "registration": "231000120677",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2023",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "A"
+    },
+    "contact": {
+      "email": "chakrabortyankita308@gmail.com",
+      "phone": "+91 6289742766",
+      "alternatePhone": "+91 9917695141"
+    },
+    "address": {
+      "present": {
+        "line1": "12 Lake View Road",
+        "city": "Kolkata",
+        "district": "Kolkata",
+        "state": "West Bengal",
+        "pin": "700001"
+      },
+      "permanent": {
+        "line1": "45/B MG Road",
+        "city": "Burdwan",
+        "district": "Burdwan",
+        "state": "West Bengal",
+        "pin": "700019"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Arun Roy",
+        "phone": "+91 9818245873",
+        "occupation": "Teacher"
+      },
+      "mother": {
+        "name": "Mrs. Rina Roy",
+        "phone": "+91 9922632275",
+        "occupation": "Engineer"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 3,
+        "sgpa": 7.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 6.9,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.1,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 7.8,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1A9Udbz1DnbC2QIkkE-xk0EsNnIbzd3uH",
+    "basic": {
+      "name": "DUKHIT MANDI",
+      "gender": "Male",
+      "dob": "05 Mar 2003",
+      "bloodGroup": "B+"
+    },
+    "academic": {
+      "roll": "10000223055",
+      "registration": "231000120671",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2023",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "B"
+    },
+    "contact": {
+      "email": "dukhitmandi@gmail.com",
+      "phone": "+91 7477349986",
+      "alternatePhone": "+91 9922632275"
+    },
+    "address": {
+      "present": {
+        "line1": "45/B MG Road",
+        "city": "Burdwan",
+        "district": "Burdwan",
+        "state": "West Bengal",
+        "pin": "700019"
+      },
+      "permanent": {
+        "line1": "Near Central Bus Stand",
+        "city": "Siliguri",
+        "district": "Siliguri",
+        "state": "West Bengal",
+        "pin": "713101"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Prakash Sharma",
+        "phone": "+91 9843368882",
+        "occupation": "Engineer"
+      },
+      "mother": {
+        "name": "Mrs. Sunita Sharma",
+        "phone": "+91 9945772643",
+        "occupation": "Business"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 0.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 0.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 6.2,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 6.5,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 7.28,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 7.38,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1EpuiU74NsX2GdpZX8pf6t9TNDAHCyH6T",
+    "basic": {
+      "name": "Nitesh Dubey ",
+      "gender": "Male",
+      "dob": "19 Jul 2002",
+      "bloodGroup": "O+"
+    },
+    "academic": {
+      "roll": "10000223066",
+      "registration": "23100012088",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2023",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "C"
+    },
+    "contact": {
+      "email": "ndphysics100@gmail.com",
+      "phone": "+91 6294200752",
+      "alternatePhone": "+91 9945772643"
+    },
+    "address": {
+      "present": {
+        "line1": "Near Central Bus Stand",
+        "city": "Siliguri",
+        "district": "Siliguri",
+        "state": "West Bengal",
+        "pin": "713101"
+      },
+      "permanent": {
+        "line1": "Hilltop Colony 3rd Lane",
+        "city": "Asansol",
+        "district": "Asansol",
+        "state": "West Bengal",
+        "pin": "713204"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Dipankar Ghosh",
+        "phone": "+91 9811405176",
+        "occupation": "Business"
+      },
+      "mother": {
+        "name": "Mrs. Lipika Ghosh",
+        "phone": "+91 9959583119",
+        "occupation": "Homemaker"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 3,
+        "sgpa": 8.1,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 7.9,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.9,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.5,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=19u2GKjESv210N2yI7whk6kWOT1pPCfP4",
+    "basic": {
+      "name": "Deep Ghosh",
+      "gender": "Male",
+      "dob": "28 Nov 2003",
+      "bloodGroup": "AB+"
+    },
+    "academic": {
+      "roll": "10000222071",
+      "registration": "221000112262",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "D"
+    },
+    "contact": {
+      "email": "ghoshdeep459@gmail.com",
+      "phone": "+91 8697604802",
+      "alternatePhone": "+91 9959583119"
+    },
+    "address": {
+      "present": {
+        "line1": "Hilltop Colony 3rd Lane",
+        "city": "Asansol",
+        "district": "Asansol",
+        "state": "West Bengal",
+        "pin": "713204"
+      },
+      "permanent": {
+        "line1": "34 Garden Lane",
+        "city": "Durgapur",
+        "district": "Durgapur",
+        "state": "West Bengal",
+        "pin": "721602"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Sandeep Singh",
+        "phone": "+91 9866048351",
+        "occupation": "Homemaker"
+      },
+      "mother": {
+        "name": "Mrs. Priya Singh",
+        "phone": "+91 9941934395",
+        "occupation": "Govt Employee"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 7.11,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 8.24,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.45,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.65,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.64,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.75,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1mvVXqpjUYwSbMOtWSi0rsJMEKiaLbKMQ",
+    "basic": {
+      "name": "Aditya Kumar ",
+      "gender": "Male",
+      "dob": "14 Feb 2002",
+      "bloodGroup": "A-"
+    },
+    "academic": {
+      "roll": "10000222032",
+      "registration": "221000110058",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "E"
+    },
+    "contact": {
+      "email": "rajputaditya369@gmail.com",
+      "phone": "+91 8235152595",
+      "alternatePhone": "+91 9941934395"
+    },
+    "address": {
+      "present": {
+        "line1": "34 Garden Lane",
+        "city": "Durgapur",
+        "district": "Durgapur",
+        "state": "West Bengal",
+        "pin": "721602"
+      },
+      "permanent": {
+        "line1": "7 Park Street",
+        "city": "Howrah",
+        "district": "Howrah",
+        "state": "West Bengal",
+        "pin": "711101"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Kaushik Das",
+        "phone": "+91 9895379314",
+        "occupation": "Govt Employee"
+      },
+      "mother": {
+        "name": "Mrs. Kabita Das",
+        "phone": "+91 9970225318",
+        "occupation": "Nurse"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 9.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 9.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 9.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.0,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=18ylnpJefpDuK-EETpZG6mbXSwWE3NLoO",
+    "basic": {
+      "name": "Surojit Gharami",
+      "gender": "Male",
+      "dob": "30 Aug 2003",
+      "bloodGroup": "B-"
+    },
+    "academic": {
+      "roll": "10000223060",
+      "registration": "231000120676",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2023",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "V"
+    },
+    "contact": {
+      "email": "surojitgharami204@gmail.com",
+      "phone": "+91 7363967993",
+      "alternatePhone": "+91 9970225318"
+    },
+    "address": {
+      "present": {
+        "line1": "7 Park Street",
+        "city": "Howrah",
+        "district": "Howrah",
+        "state": "West Bengal",
+        "pin": "711101"
+      },
+      "permanent": {
+        "line1": "89 Riverbank Enclave",
+        "city": "Kalyani",
+        "district": "Kalyani",
+        "state": "West Bengal",
+        "pin": "741235"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Ramesh Banerjee",
+        "phone": "+91 9863959281",
+        "occupation": "Nurse"
+      },
+      "mother": {
+        "name": "Mrs. Rupa Banerjee",
+        "phone": "+91 9933567422",
+        "occupation": "Doctor"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 3,
+        "sgpa": 7.5,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.05,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.72,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.96,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1-41GfYEdLLQCFIRPtHwM7KxXC-uNGJD0",
+    "basic": {
+      "name": "Anish Kumar ",
+      "gender": "Male",
+      "dob": "07 Sep 2002",
+      "bloodGroup": "O-"
+    },
+    "academic": {
+      "roll": "10000222005",
+      "registration": "22100011005",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "W"
+    },
+    "contact": {
+      "email": "anish.k7644@proton.me",
+      "phone": "+91 7644905359",
+      "alternatePhone": "+91 9933567422"
+    },
+    "address": {
+      "present": {
+        "line1": "89 Riverbank Enclave",
+        "city": "Kalyani",
+        "district": "Kalyani",
+        "state": "West Bengal",
+        "pin": "741235"
+      },
+      "permanent": {
+        "line1": "Old Market Area",
+        "city": "Haldia",
+        "district": "Haldia",
+        "state": "West Bengal",
+        "pin": "721607"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Tanmoy Paul",
+        "phone": "+91 9832298702",
+        "occupation": "Doctor"
+      },
+      "mother": {
+        "name": "Mrs. Trina Paul",
+        "phone": "+91 9951039446",
+        "occupation": "Shop Owner"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 8.26,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 9.32,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 9.45,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 9.6,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 9.48,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 9.71,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1rtVay9RR-XMIRmEs3FmaHXHkjpktohMj",
+    "basic": {
+      "name": "Sudipta Ghosh",
+      "gender": "Male",
+      "dob": "22 Dec 2003",
+      "bloodGroup": "AB-"
+    },
+    "academic": {
+      "roll": "10000222009",
+      "registration": "221000110035",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "X"
+    },
+    "contact": {
+      "email": "sudiptaghoshkg@gmail.com",
+      "phone": "+91 8001214149",
+      "alternatePhone": "+91 9951039446"
+    },
+    "address": {
+      "present": {
+        "line1": "Old Market Area",
+        "city": "Haldia",
+        "district": "Haldia",
+        "state": "West Bengal",
+        "pin": "721607"
+      },
+      "permanent": {
+        "line1": "22 Sunshine Apartments",
+        "city": "Midnapore",
+        "district": "Midnapore",
+        "state": "West Bengal",
+        "pin": "721101"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Jayanta Dutta",
+        "phone": "+91 9825148337",
+        "occupation": "Shop Owner"
+      },
+      "mother": {
+        "name": "Mrs. Jaya Dutta",
+        "phone": "+91 9914213143",
+        "occupation": "Banker"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 9.31,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 9.02,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.95,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 9.35,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 9.36,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 9.46,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1m7zKj4zPV4cJzA2lpjhGDbslAF4HscFd",
+    "basic": {
+      "name": "Pravin Kumar Pandey ",
+      "gender": "Male",
+      "dob": "03 May 2002",
+      "bloodGroup": "B+"
+    },
+    "academic": {
+      "roll": "10000223052",
+      "registration": "231000120668",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2023",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "Y"
+    },
+    "contact": {
+      "email": "Pravinjii358@gmail.com",
+      "phone": "+91 6297961810",
+      "alternatePhone": "+91 9914213143"
+    },
+    "address": {
+      "present": {
+        "line1": "22 Sunshine Apartments",
+        "city": "Midnapore",
+        "district": "Midnapore",
+        "state": "West Bengal",
+        "pin": "721101"
+      },
+      "permanent": {
+        "line1": "Green Valley Complex",
+        "city": "Malda",
+        "district": "Malda",
+        "state": "West Bengal",
+        "pin": "732101"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Harsh Agarwal",
+        "phone": "+91 9827711601",
+        "occupation": "Banker"
+      },
+      "mother": {
+        "name": "Mrs. Hema Agarwal",
+        "phone": "+91 9919786763",
+        "occupation": "Lecturer"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 3,
+        "sgpa": 6.45,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 6.56,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 7.2,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 7.5,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1m2tiXsl2qtchpyqRT3aof_vGDfXb3h-v",
+    "basic": {
+      "name": "NEELOFER PARVIN ",
+      "gender": "Female",
+      "dob": "10 Oct 2003",
+      "bloodGroup": "A+"
+    },
+    "academic": {
+      "roll": "10000223063",
+      "registration": "231000120679",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2023",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "Z"
+    },
+    "contact": {
+      "email": "neeloferparvin@gmail.com",
+      "phone": "+91 9836177859",
+      "alternatePhone": "+91 9919786763"
+    },
+    "address": {
+      "present": {
+        "line1": "Green Valley Complex",
+        "city": "Malda",
+        "district": "Malda",
+        "state": "West Bengal",
+        "pin": "732101"
+      },
+      "permanent": {
+        "line1": "12 Lake View Road",
+        "city": "Kolkata",
+        "district": "Kolkata",
+        "state": "West Bengal",
+        "pin": "700001"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Manab Sen",
+        "phone": "+91 9849115708",
+        "occupation": "Lecturer"
+      },
+      "mother": {
+        "name": "Mrs. Mita Sen",
+        "phone": "+91 9917695141",
+        "occupation": "Teacher"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 3,
+        "sgpa": 8.3,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.6,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.4,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.3,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=19u123H1_otobrNerTHT7geIXkbYdBzWA",
+    "basic": {
+      "name": "Bidipta Barua",
+      "gender": "Female",
+      "dob": "12 Jan 2002",
+      "bloodGroup": "A+"
+    },
+    "academic": {
+      "roll": "10000222045",
+      "registration": "221000110071",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "A"
+    },
+    "contact": {
+      "email": "bidsspare@gmail.com",
+      "phone": "+91 9051909918",
+      "alternatePhone": "+91 9917695141"
+    },
+    "address": {
+      "present": {
+        "line1": "12 Lake View Road",
+        "city": "Kolkata",
+        "district": "Kolkata",
+        "state": "West Bengal",
+        "pin": "700001"
+      },
+      "permanent": {
+        "line1": "45/B MG Road",
+        "city": "Burdwan",
+        "district": "Burdwan",
+        "state": "West Bengal",
+        "pin": "700019"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Arun Roy",
+        "phone": "+91 9818245873",
+        "occupation": "Teacher"
+      },
+      "mother": {
+        "name": "Mrs. Rina Roy",
+        "phone": "+91 9922632275",
+        "occupation": "Engineer"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 7.94,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 8.37,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 7.95,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.25,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.32,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 9.25,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1q-XELaJQrDjHKoLscARdivvWuogFy0RG",
+    "basic": {
+      "name": "Arka Prabha Saha",
+      "gender": "Male",
+      "dob": "05 Mar 2003",
+      "bloodGroup": "B+"
+    },
+    "academic": {
+      "roll": "10000222047",
+      "registration": "221000110073",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "B"
+    },
+    "contact": {
+      "email": "arkaprabha.saha2015@gmail.com",
+      "phone": "+91 8961865359",
+      "alternatePhone": "+91 9922632275"
+    },
+    "address": {
+      "present": {
+        "line1": "45/B MG Road",
+        "city": "Burdwan",
+        "district": "Burdwan",
+        "state": "West Bengal",
+        "pin": "700019"
+      },
+      "permanent": {
+        "line1": "Near Central Bus Stand",
+        "city": "Siliguri",
+        "district": "Siliguri",
+        "state": "West Bengal",
+        "pin": "713101"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Prakash Sharma",
+        "phone": "+91 9843368882",
+        "occupation": "Engineer"
+      },
+      "mother": {
+        "name": "Mrs. Sunita Sharma",
+        "phone": "+91 9945772643",
+        "occupation": "Business"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 7.86,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 7.78,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.15,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.65,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 9.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.5,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1hgzOZ3qORyVAzAS-SRGjXZT0tVU4qnon",
+    "basic": {
+      "name": "Anupam Yadav",
+      "gender": "Male",
+      "dob": "19 Jul 2002",
+      "bloodGroup": "O+"
+    },
+    "academic": {
+      "roll": "10000222030",
+      "registration": "221000110056",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "C"
+    },
+    "contact": {
+      "email": "ay473165@gmail.com",
+      "phone": "+91 9621302531",
+      "alternatePhone": "+91 9945772643"
+    },
+    "address": {
+      "present": {
+        "line1": "Near Central Bus Stand",
+        "city": "Siliguri",
+        "district": "Siliguri",
+        "state": "West Bengal",
+        "pin": "713101"
+      },
+      "permanent": {
+        "line1": "Hilltop Colony 3rd Lane",
+        "city": "Asansol",
+        "district": "Asansol",
+        "state": "West Bengal",
+        "pin": "713204"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Dipankar Ghosh",
+        "phone": "+91 9811405176",
+        "occupation": "Business"
+      },
+      "mother": {
+        "name": "Mrs. Lipika Ghosh",
+        "phone": "+91 9959583119",
+        "occupation": "Homemaker"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 8.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 8.5,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.3,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.1,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.3,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1vKJJf8WfUlGA8xdsSNh_FvRKprqYEAaZ",
+    "basic": {
+      "name": "Krishnendu Ghosh",
+      "gender": "Male",
+      "dob": "28 Nov 2003",
+      "bloodGroup": "AB+"
+    },
+    "academic": {
+      "roll": "10000222069",
+      "registration": "221000112255",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "D"
+    },
+    "contact": {
+      "email": "bkrishnendughosh@gmail.com",
+      "phone": "+91 6297398425",
+      "alternatePhone": "+91 9959583119"
+    },
+    "address": {
+      "present": {
+        "line1": "Hilltop Colony 3rd Lane",
+        "city": "Asansol",
+        "district": "Asansol",
+        "state": "West Bengal",
+        "pin": "713204"
+      },
+      "permanent": {
+        "line1": "34 Garden Lane",
+        "city": "Durgapur",
+        "district": "Durgapur",
+        "state": "West Bengal",
+        "pin": "721602"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Sandeep Singh",
+        "phone": "+91 9866048351",
+        "occupation": "Homemaker"
+      },
+      "mother": {
+        "name": "Mrs. Priya Singh",
+        "phone": "+91 9941934395",
+        "occupation": "Govt Employee"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 6.94,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 8.39,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.1,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.05,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.48,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.25,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=137XFh2T0t9u7m79wLFLTsjWC5sOgGk4_",
+    "basic": {
+      "name": "Manisha Bhakta ",
+      "gender": "Female",
+      "dob": "14 Feb 2002",
+      "bloodGroup": "A-"
+    },
+    "academic": {
+      "roll": "10000222007",
+      "registration": "221000110033",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "E"
+    },
+    "contact": {
+      "email": "manishabhakta2024@gmail.com",
+      "phone": "+91 8250354856",
+      "alternatePhone": "+91 9941934395"
+    },
+    "address": {
+      "present": {
+        "line1": "34 Garden Lane",
+        "city": "Durgapur",
+        "district": "Durgapur",
+        "state": "West Bengal",
+        "pin": "721602"
+      },
+      "permanent": {
+        "line1": "7 Park Street",
+        "city": "Howrah",
+        "district": "Howrah",
+        "state": "West Bengal",
+        "pin": "711101"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Kaushik Das",
+        "phone": "+91 9895379314",
+        "occupation": "Govt Employee"
+      },
+      "mother": {
+        "name": "Mrs. Kabita Das",
+        "phone": "+91 9970225318",
+        "occupation": "Nurse"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 8.77,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 9.15,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.8,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 9.5,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 9.38,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 9.36,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://i.ibb.co/4pDNDk1/avatar6.pnghttps://drive.google.com/open?id=1igyKQSzF33erKd-duQXqbEOIXBhpx-KM",
+    "basic": {
+      "name": "Zeba Khan",
+      "gender": "Female",
+      "dob": "30 Aug 2003",
+      "bloodGroup": "B-"
+    },
+    "academic": {
+      "roll": "10000222070",
+      "registration": "221000112258",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "V"
+    },
+    "contact": {
+      "email": "Zebak357357@gmail.com",
+      "phone": "+91 8584074536",
+      "alternatePhone": "+91 9970225318"
+    },
+    "address": {
+      "present": {
+        "line1": "7 Park Street",
+        "city": "Howrah",
+        "district": "Howrah",
+        "state": "West Bengal",
+        "pin": "711101"
+      },
+      "permanent": {
+        "line1": "89 Riverbank Enclave",
+        "city": "Kalyani",
+        "district": "Kalyani",
+        "state": "West Bengal",
+        "pin": "741235"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Ramesh Banerjee",
+        "phone": "+91 9863959281",
+        "occupation": "Nurse"
+      },
+      "mother": {
+        "name": "Mrs. Rupa Banerjee",
+        "phone": "+91 9933567422",
+        "occupation": "Doctor"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 7.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 7.9,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 7.7,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 7.8,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 8.7,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 8.4,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "photo": "https://drive.google.com/open?id=1ALaEAiBXSTJV01rrrYoVHZVrN22n87QZ",
+    "basic": {
+      "name": "Antika Halder",
+      "gender": "Female",
+      "dob": "07 Sep 2002",
+      "bloodGroup": "O-"
+    },
+    "academic": {
+      "roll": "10000222048",
+      "registration": "221000110074",
+      "stream": "B.Tech in Information Technology",
+      "department": "Information Technology",
+      "admissionYear": "2022",
+      "currentYear": "4th",
+      "currentSemester": 7,
+      "section": "W"
+    },
+    "contact": {
+      "email": "antika.halder2020@gmail",
+      "phone": "+91 9830412837",
+      "alternatePhone": "+91 9933567422"
+    },
+    "address": {
+      "present": {
+        "line1": "89 Riverbank Enclave",
+        "city": "Kalyani",
+        "district": "Kalyani",
+        "state": "West Bengal",
+        "pin": "741235"
+      },
+      "permanent": {
+        "line1": "Old Market Area",
+        "city": "Haldia",
+        "district": "Haldia",
+        "state": "West Bengal",
+        "pin": "721607"
+      }
+    },
+    "guardian": {
+      "father": {
+        "name": "Mr. Tanmoy Paul",
+        "phone": "+91 9832298702",
+        "occupation": "Doctor"
+      },
+      "mother": {
+        "name": "Mrs. Trina Paul",
+        "phone": "+91 9951039446",
+        "occupation": "Shop Owner"
+      }
+    },
+    "previousMarks": [
+      {
+        "semester": 1,
+        "sgpa": 8.64,
+        "result": "Passed"
+      },
+      {
+        "semester": 2,
+        "sgpa": 8.34,
+        "result": "Passed"
+      },
+      {
+        "semester": 3,
+        "sgpa": 8.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 4,
+        "sgpa": 8.93,
+        "result": "Passed"
+      },
+      {
+        "semester": 5,
+        "sgpa": 9.0,
+        "result": "Passed"
+      },
+      {
+        "semester": 6,
+        "sgpa": 9.2,
+        "result": "Passed"
+      }
+    ],
+    "certificates": []
+  }
 ]
