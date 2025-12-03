@@ -6,7 +6,7 @@ import mongoose from "mongoose";
 dotenv.config();
 const router = express.Router();
 
-router.get("/login", async (req, res) => {
+router.post("/login", async (req, res) => {
   try {
     const { id, password } = req.body;
 
@@ -46,7 +46,12 @@ router.get("/login", async (req, res) => {
     res.json({
       message: `${userType} login successful`,
       token,
+      user: {
+        id,
+        type: userType
+      }
     });
+
 
   } catch (error) {
     console.error(error);
