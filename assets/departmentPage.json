@@ -2,47 +2,100 @@
   "department": {
     "placement": {
       "lastYear": "2024-25",
-      "totalPlaced": 72,
+      "totalPlaced": 125,
       "topCompanies": [
         "Infosys",
         "TCS",
-        "Wipro"
+        "Wipro",
+        "Cognizant",
+        "Capgemini",
+        "HCL Technologies",
+        "Accenture",
+        "Tech Mahindra",
+        "Deloitte"
       ],
       "highestPackage": "30 LPA",
       "averagePackage": "6.5 LPA",
       "reportLink": "/assets/placement-report-2024.pdf"
     },
+
     "timetable": [
       {
         "year": "First Year",
         "table": [
-          [
-            "Mon",
-            "9:00-10:00",
-            "Maths"
-          ]
+          ["Mon", "9:00-10:00", "Mathematics"],
+          ["Mon", "10:00-11:00", "Programming Fundamentals"],
+          ["Tue", "9:00-10:00", "Physics"],
+          ["Tue", "11:00-12:00", "English Communication"],
+          ["Wed", "10:00-11:00", "Chemistry"],
+          ["Thu", "1:00-2:00", "Basic Electronics"],
+          ["Fri", "11:00-12:00", "Environmental Science"]
+        ]
+      },
+      {
+        "year": "Second Year",
+        "table": [
+          ["Mon", "10:00-11:00", "Data Structures"],
+          ["Tue", "9:00-10:00", "Digital Logic"],
+          ["Wed", "12:00-1:00", "Discrete Mathematics"],
+          ["Thu", "1:00-2:00", "Computer Architecture"],
+          ["Fri", "10:00-11:00", "DBMS"]
         ]
       }
     ],
+
     "holidays": [
       {
         "date": "2025-12-06",
-        "name": "holiday",
-        "noticeLink": "holiday.pdf"
+        "name": "Holiday",
+        "noticeLink": "/assets/notices/holiday.pdf"
+      },
+      {
+        "date": "2025-12-25",
+        "name": "Christmas",
+        "noticeLink": "/assets/notices/christmas.pdf"
+      },
+      {
+        "date": "2026-01-01",
+        "name": "New Year",
+        "noticeLink": ""
       }
     ],
+
     "fees": [
       {
-        "head": "Tuition (per semester)",
+        "head": "Tuition Fee (per semester)",
         "amount": "₹20,000"
+      },
+      {
+        "head": "Laboratory Fee",
+        "amount": "₹5,000"
+      },
+      {
+        "head": "Library Fee",
+        "amount": "₹2,000"
+      },
+      {
+        "head": "Exam Fee",
+        "amount": "₹1,500"
       }
     ],
+
     "syllabus": [
       {
         "title": "First Year Syllabus",
-        "link": "/assets/syllabus-first-year.pdf"
+        "link": "/assets/syllabus/first-year.pdf"
+      },
+      {
+        "title": "Second Year Syllabus",
+        "link": "/assets/syllabus/second-year.pdf"
+      },
+      {
+        "title": "Final Year Syllabus",
+        "link": "/assets/syllabus/final-year.pdf"
       }
     ],
+
     "lastUpdated": "2025-11-30T11:44:59.320Z"
   }
 }
