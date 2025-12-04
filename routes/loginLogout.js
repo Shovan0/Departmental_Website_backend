@@ -2,9 +2,52 @@ import express from "express";
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
+import User from "../models/loginModel.js";
 
 dotenv.config();
 const router = express.Router();
+
+router.post("/register", async (req, res) => {
+  try {
+    const { id, password, type } = req.body;
+
+    // Validate fields
+    if (!id || !password || !type) {
+      return res.status(400).json({ message: "ID, Password and Type are required" });
+    }
+
+    if (!["student", "faculty", "admin"].includes(type)) {
+      return res.status(400).json({ message: "Type must be 'student' or 'admin' or 'faculty'" });
+    }
+
+    // Check if user already exists
+    const existingUser = await User.findOne({ id });
+    if (existingUser) {
+      return res.status(409).json({ message: "User already exists" });
+    }
+
+    // Create new user
+    const newUser = new User({
+      id,
+      password,
+      type,
+    });
+
+    await newUser.save();
+
+    return res.json({
+      message: `${type} registered successfully`,
+      user: {
+        id: newUser.id,
+        type: newUser.type,
+      },
+    });
+
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json({ message: "Server error", error });
+  }
+});
 
 router.post("/login", async (req, res) => {
   try {
