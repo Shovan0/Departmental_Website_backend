@@ -1,28 +1,37 @@
 import jwt from "jsonwebtoken";
+import { rolePermissions } from "../config/rolePermission.js";
 
-export const verifyToken = (requiredType = null) => {
+export const verifyToken = (requiredPermissions = []) => {
   return (req, res, next) => {
     try {
       const token = req.cookies.token;
-      // console.log("Verifying token:", token);
-
-      if (!token) {
-        return res.status(401).json({ message: "No token provided" });
-      }
+      if (!token)
+        return res.status(401).json({ success: false, message: "Token not found" });
 
       const decoded = jwt.verify(token, process.env.JWT_SECRET);
-
       req.user = decoded;
 
-      if (requiredType && decoded.type !== requiredType) {
-        return res.status(403).json({
-          message: `Access denied: Only ${requiredType} allowed`,
-        });
+      // RBAC: Check permissions
+      if (requiredPermissions.length) {
+        const userPermissions = rolePermissions[decoded.type] || [];
+        const hasPermission =
+          userPermissions.includes("all") ||
+          requiredPermissions.some((p) => userPermissions.includes(p));
+
+        if (!hasPermission) {
+          return res.status(403).json({
+            success: false,
+            message: `Access denied: You don't have permission to access this resource`,
+          });
+        }
       }
 
       next();
     } catch (err) {
-      return res.status(401).json({ message: "Invalid token" });
+      console.error("Token verification error:", err.message);
+      if (err.name === "TokenExpiredError")
+        return res.status(401).json({ success: false, message: "Token expired" });
+      return res.status(401).json({ success: false, message: "Invalid token" });
     }
   };
 };
