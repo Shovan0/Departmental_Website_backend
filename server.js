@@ -62,9 +62,10 @@ app.use("/api/admin/dashboard", dashboardRoutes);
 
 
 // ===== GENERAL ROUTES =====
-app.use("/api/notice", publicNoticeRoutes);// working perfectly
-app.use("/api/event", publicEventRoutes);// working perfectly
-app.use("/api/gallery", publicGalleryRoutes);// working perfectly
+app.use("/api/notice", publicNoticeRoutes);// under development
+app.use("/api/event", publicEventRoutes);// under development
+app.use("/api/gallery", publicGalleryRoutes);// under development
+
 app.use("/api/faculty", publicFaculty);// working perfectly
 app.use("/api/alumni", publicAlumni);// working perfectly
 

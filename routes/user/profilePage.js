@@ -7,7 +7,7 @@ const router = express.Router();
 // Only student, admin, and superAdmin can access
 
 router.get(
-  "/profile",
+  "/",
   verifyToken(["student", "admin", "superAdmin"]),
   getStudentProfile
 );

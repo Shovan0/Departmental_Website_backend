@@ -84,23 +84,23 @@ export const loginUser = async (req, res) => {
     if (!id || !password)
       return sendError(res, 400, "ID and password are required");
 
-    if (!recaptchaToken)
-      return sendError(res, 400, "reCAPTCHA token required");
+    // if (!recaptchaToken)
+    //   return sendError(res, 400, "reCAPTCHA token required");
 
     // Verify reCAPTCHA
 
-    const verifyURL = `https://www.google.com/recaptcha/api/siteverify`;
-    const response = await axios.post(
-      verifyURL,
-      {},
-      { params: { secret: process.env.RECAPTCHA_SECRET, response: recaptchaToken } }
-    );
+    // const verifyURL = `https://www.google.com/recaptcha/api/siteverify`;
+    // const response = await axios.post(
+      // verifyURL,
+    //   {},
+    //   { params: { secret: process.env.RECAPTCHA_SECRET, response: recaptchaToken } }
+    // );
 
-    if (!response.data.success)
-      return sendError(res, 403, "Failed reCAPTCHA verification");
+    // if (!response.data.success)
+    //   return sendError(res, 403, "Failed reCAPTCHA verification");
 
     const user = await User.findOne({ id });
-    if (!user) return sendError(res, 401, "Invalid credentials");
+    if (!user) return sendError(res, 401, "Invalid email");
 
     // Blocking logic
     if (user.isBlocked)
@@ -121,7 +121,7 @@ export const loginUser = async (req, res) => {
       }
 
       await user.save();
-      return sendError(res, 401, "Invalid credentials");
+      return sendError(res, 401, "Invalid password");
     }
 
     // Reset failed attempts on success

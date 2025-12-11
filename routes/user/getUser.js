@@ -3,7 +3,7 @@ import { verifyToken } from "../../middlewares/auth.js";
 
 const router = express.Router();
 
-router.get("/me", verifyToken(["student", "faculty", "admin", "superAdmin"]), (req, res) => {
+router.get("/", verifyToken(["student", "faculty", "admin", "superAdmin"]), (req, res) => {
   return res.json({
     success: true,
     user: {

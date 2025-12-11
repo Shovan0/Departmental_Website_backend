@@ -21,7 +21,7 @@ const loginLimiter = rateLimit({
 // Routes
 router.post("/register", registerUser);
 router.post("/login", loginLimiter, loginUser);
-router.post("/logout", verifyToken(["admin", "faculty", "student", "superAdmin"]), logoutUser);
+router.get("/logout", verifyToken(["admin", "faculty", "student", "superAdmin"]), logoutUser);
 
 // Forgot / Reset password
 router.post("/forgot-password", forgotPassword);
