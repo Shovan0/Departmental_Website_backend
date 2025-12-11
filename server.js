@@ -41,6 +41,7 @@ app.use(cookieParser());
 
 // ===== DB CONNECTION =====
 connectDB();
+app.set("trust proxy", 1);
 
 // ===== DEFAULT ROUTE =====
 app.get("/", (req, res) => {
