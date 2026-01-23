@@ -3,8 +3,11 @@ import {
   loginUser,
   registerUser,
   logoutUser,
-  forgotPassword,
-  resetPassword
+} from "../../controllers/authController.js";
+import {
+  handleForgotPassword,
+  handleResetPassword,
+  handleVerifyOtp,
 } from "../../controllers/authController.js";
 import { verifyToken } from "../../middlewares/auth.js";
 import rateLimit from "express-rate-limit";
@@ -24,7 +27,8 @@ router.post("/login", loginLimiter, loginUser);
 router.get("/logout", verifyToken(["admin", "faculty", "student", "superAdmin"]), logoutUser);
 
 // Forgot / Reset password
-router.post("/forgot-password", forgotPassword);
-router.post("/reset-password", resetPassword);
+router.post("/forgot-password", handleForgotPassword);
+router.post("/verify-otp", handleVerifyOtp);
+router.post("/reset-password", handleResetPassword);
 
 export default router;

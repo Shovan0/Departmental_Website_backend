@@ -1,5 +1,8 @@
 import jwt from "jsonwebtoken";
 import { rolePermissions } from "../config/rolePermission.js";
+import Student from "../models/studentModel.js";
+import sendEmail from "../config/sendEmail.js";
+import Otp from "../models/otpModel.js";
 
 export const verifyToken = (allowedRoles = []) => {
   return (req, res, next) => {
@@ -16,15 +19,15 @@ export const verifyToken = (allowedRoles = []) => {
       const decoded = jwt.verify(token, process.env.JWT_SECRET);
       req.user = decoded;
 
-      const userRole = decoded.type;  // "student" | "admin" | "superAdmin"
+      const StudentRole = decoded.type;  // "student" | "admin" | "superAdmin"
 
       // superAdmin always allowed
-      if (userRole === "superAdmin") {
+      if (StudentRole === "superAdmin") {
         return next();
       }
 
-      // check if user's role is allowed
-      const isAllowed = allowedRoles.includes(userRole);
+      // check if Student's role is allowed
+      const isAllowed = allowedRoles.includes(StudentRole);
 
       if (!isAllowed) {
         return res.status(403).json({
@@ -42,4 +45,3 @@ export const verifyToken = (allowedRoles = []) => {
     }
   };
 };
-

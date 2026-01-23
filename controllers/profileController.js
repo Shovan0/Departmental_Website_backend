@@ -4,6 +4,7 @@ import Student from "../models/studentModel.js";
 // Get logged-in student profile
 export const getStudentProfile = async (req, res) => {
   try {
+
     const registrationId = req.user.id; // ID from JWT token
 
     // Fetch student profile using Mongoose

@@ -2,12 +2,13 @@ import User from "../models/loginModel.js";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
+import sendEmail from "../config/sendEmail.js";
+import Otp from "../models/otpModel.js";
 import axios from "axios";
 import crypto from "crypto";
 import nodemailer from "nodemailer";
 
 dotenv.config();
-
 
 // Helper for consistent errors
 const sendError = (res, status, message) =>
@@ -16,7 +17,6 @@ const sendError = (res, status, message) =>
 
 // Allowed user types
 const ALLOWED_TYPES = ["superAdmin", "admin", "faculty", "student"];
-
 
 
 // REGISTER USER
@@ -74,8 +74,6 @@ export const registerUser = async (req, res) => {
 };
 
 
-
-
 // LOGIN controller
 export const loginUser = async (req, res) => {
   try {
@@ -83,21 +81,6 @@ export const loginUser = async (req, res) => {
 
     if (!id || !password)
       return sendError(res, 400, "ID and password are required");
-
-    // if (!recaptchaToken)
-    //   return sendError(res, 400, "reCAPTCHA token required");
-
-    // Verify reCAPTCHA
-
-    // const verifyURL = `https://www.google.com/recaptcha/api/siteverify`;
-    // const response = await axios.post(
-      // verifyURL,
-    //   {},
-    //   { params: { secret: process.env.RECAPTCHA_SECRET, response: recaptchaToken } }
-    // );
-
-    // if (!response.data.success)
-    //   return sendError(res, 403, "Failed reCAPTCHA verification");
 
     const user = await User.findOne({ id });
     if (!user) return sendError(res, 401, "Invalid email");
@@ -158,8 +141,6 @@ export const loginUser = async (req, res) => {
 };
 
 
-
-
 // LOGOUT
 export const logoutUser = (req, res) => {
   res.clearCookie("token");
@@ -167,90 +148,109 @@ export const logoutUser = (req, res) => {
 };
 
 
+export const handleForgotPassword = async (req, res) => {
+  const { email } = req.body;
 
-
-// FORGOT PASSWORD
-export const forgotPassword = async (req, res) => {
   try {
-    const { id } = req.body;
+    const student = await User.findOne({ email });
 
-    if (!id) return sendError(res, 400, "ID is required");
+    if (!student) {
+      return res.status(404).json({ success: false, message: "Student not found" });
+    }
 
-    const user = await User.findOne({ id });
-    if (!user) return sendError(res, 404, "User not found");
+    const otp = Math.floor(100000 + Math.random() * 900000);
 
-    const token = crypto.randomBytes(32).toString("hex");
-
-    user.resetPasswordToken = token;
-    user.resetPasswordExpires = Date.now() + 30 * 60 * 1000;
-    await user.save();
-
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
-      },
+    const newOtp = new Otp({
+      email,
+      otp,
     });
+    await newOtp.save();
 
-    const resetURL = `${process.env.FRONTEND_URL}/reset-password/${token}`;
+    const message = `Your OTP for password reset is ${otp}. It is valid for 10 minutes.`;
 
-    await transporter.sendMail({
-      to: id,
-      subject: "Password Reset",
-      html: `<p>Click the link to reset your password. Valid for 30 minutes:</p>
-             <a href="${resetURL}">${resetURL}</a>`,
-    });
+    await sendEmail(email, "Password Reset OTP", message);
 
-    res.json({
-      success: true,
-      message: "Password reset link sent to your email",
-    });
+    return res.status(200).json({ success: true, message: "OTP sent to email" });
 
   } catch (error) {
     console.error(error);
-    sendError(res, 500, "Server error");
+    return res.status(500).json({ success: false, message: "Internal server error" });
   }
 };
 
 
-
-
-// RESET PASSWORD
-export const resetPassword = async (req, res) => {
+export const handleVerifyOtp = async (req, res) => {
+  const { email, otp } = req.body;
   try {
-    const { token, newPassword } = req.body;
+    const otpRecord = await Otp.findOne({ email : email, otp : otp});
 
-    if (!token || !newPassword)
-      return sendError(res, 400, "Token and new password required");
+    if(!otpRecord || Date.now() > otpRecord.createdAt.getTime() + 60*60*1000) {
+      return res.status(400).json({ success: false, message: "Invalid or expired OTP" });
+    }
 
-    const user = await User.findOne({
-      resetPasswordToken: token,
-      resetPasswordExpires: { $gt: Date.now() },
-    });
+    res.status(200).json({ success: true, message: "OTP verified successfully" });
+  } catch (error) {
+    res.status(500).json({ success: false, message:"Internal server error"});
+  }
+}
 
-    if (!user)
-      return sendError(res, 400, "Invalid or expired token");
+export const handleResetPassword = async (req, res) => {
+  const { email, otp, newPassword } = req.body;
 
+  try {
+    const otpRecord = await Otp.findOne({ email, otp });
+
+    if (
+      !otpRecord ||
+      Date.now() > otpRecord.createdAt.getTime() + 60 * 60 * 1000
+    ) {
+      return res.status(400).json({
+        success: false,
+        message: "Invalid or expired OTP",
+      });
+    }
+
+    const user = await User.findOne({ email });
+    if (!user) {
+      return res.status(404).json({
+        success: false,
+        message: "User not found",
+      });
+    }
+
+    // SAME strong password validation as register
     const strongPasswordRegex =
       /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
 
-    if (!strongPasswordRegex.test(newPassword))
-      return sendError(res, 400, "Password must be strong");
+    if (!strongPasswordRegex.test(newPassword)) {
+      return res.status(400).json({
+        success: false,
+        message: "Password must be strong",
+      });
+    }
 
-    user.password = await bcrypt.hash(newPassword, 12);
-    user.resetPasswordToken = null;
-    user.resetPasswordExpires = null;
+    // SAME hashing logic as register
+    const hashedPassword = await bcrypt.hash(newPassword, 12);
 
+    user.password = hashedPassword;
     await user.save();
 
-    res.json({
+    // Remove used OTPs
+    await Otp.deleteMany({ email });
+
+    return res.status(200).json({
       success: true,
       message: "Password reset successfully",
     });
 
   } catch (error) {
     console.error(error);
-    sendError(res, 500, "Server error");
+    return res.status(500).json({
+      success: false,
+      message: "Internal server error",
+    });
   }
 };
+
+
+
