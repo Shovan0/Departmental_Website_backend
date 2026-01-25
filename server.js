@@ -14,6 +14,7 @@ import adminNoticeRoutes from "./routes/admin/adminNotice.js";  //okay
 import adminEventRoutes from "./routes/admin/adminEvent.js";  //okay
 import adminContactRoutes from "./routes/admin/adminContact.js";//okay
 import alumniRoutes from "./routes/admin/adminAlumni.js"; //okay
+import createUser from "./routes/user/createUser.js";
 
 import dashboardRoutes from "./routes/admin/dashboard.js";// most important for the admin----
 
@@ -60,6 +61,7 @@ app.use("/api/admin/event", adminEventRoutes);
 app.use("/api/admin/contact", adminContactRoutes);
 app.use("/api/admin/alumni", alumniRoutes);
 app.use("/api/admin/dashboard", dashboardRoutes);
+app.use("/api/admin", createUser);
 
 
 // ===== GENERAL ROUTES =====

@@ -245,91 +245,6 @@
     "certificates": []
   },
   {
-    "photo": "https://drive.google.com/open?id=1nmXENqDZ-r4m9vmz_olm6fR2GLpWkwXw",
-    "basic": {
-      "name": "Raj Anand ",
-      "gender": "Male",
-      "dob": "14 Feb 2002",
-      "bloodGroup": "A-"
-    },
-    "academic": {
-      "roll": "10000222062",
-      "registration": "221000110088",
-      "stream": "B.Tech in Information Technology",
-      "department": "Information Technology",
-      "admissionYear": "2022",
-      "currentYear": "4th",
-      "currentSemester": 7,
-      "section": "E"
-    },
-    "contact": {
-      "email": "rajanandreads@gmail.com",
-      "phone": "+91 9973920454",
-      "alternatePhone": "+91 9941934395"
-    },
-    "address": {
-      "present": {
-        "line1": "34 Garden Lane",
-        "city": "Durgapur",
-        "district": "Durgapur",
-        "state": "West Bengal",
-        "pin": "721602"
-      },
-      "permanent": {
-        "line1": "7 Park Street",
-        "city": "Howrah",
-        "district": "Howrah",
-        "state": "West Bengal",
-        "pin": "711101"
-      }
-    },
-    "guardian": {
-      "father": {
-        "name": "Mr. Kaushik Singh",
-        "phone": "+91 9895379314",
-        "occupation": "Govt Employee"
-      },
-      "mother": {
-        "name": "Mrs. Sudha Singh",
-        "phone": "+91 9970225318",
-        "occupation": "Nurse"
-      }
-    },
-    "previousMarks": [
-      {
-        "semester": 1,
-        "sgpa": 9.1,
-        "result": "Passed"
-      },
-      {
-        "semester": 2,
-        "sgpa": 9.3,
-        "result": "Passed"
-      },
-      {
-        "semester": 3,
-        "sgpa": 8.85,
-        "result": "Passed"
-      },
-      {
-        "semester": 4,
-        "sgpa": 8.85,
-        "result": "Passed"
-      },
-      {
-        "semester": 5,
-        "sgpa": 9.27,
-        "result": "Passed"
-      },
-      {
-        "semester": 6,
-        "sgpa": 9.14,
-        "result": "Passed"
-      }
-    ],
-    "certificates": []
-  },
-  {
     "photo": "https://drive.google.com/open?id=1xJUei6BXzRbhs3KOSL7q5hZ7nPyYsv2h",
     "basic": {
       "name": "Barnik Ganguly ",
@@ -415,91 +330,6 @@
     "certificates": []
   },
   {
-    "photo": "https://drive.google.com/open?id=1PjJb923YeKtC-ltf7OfM5AlB1JNwT7rF",
-    "basic": {
-      "name": "Sangita Rakshit",
-      "gender": "Female",
-      "dob": "07 Sep 2002",
-      "bloodGroup": "O-"
-    },
-    "academic": {
-      "roll": "10000222068",
-      "registration": "221000112254",
-      "stream": "B.Tech in Information Technology",
-      "department": "Information Technology",
-      "admissionYear": "2022",
-      "currentYear": "4th",
-      "currentSemester": 7,
-      "section": "W"
-    },
-    "contact": {
-      "email": "sangitarakshit0again@gmail.com",
-      "phone": "+91 6289785671",
-      "alternatePhone": "+91 9933567422"
-    },
-    "address": {
-      "present": {
-        "line1": "89 Riverbank Enclave",
-        "city": "Kalyani",
-        "district": "Kalyani",
-        "state": "West Bengal",
-        "pin": "741235"
-      },
-      "permanent": {
-        "line1": "Old Market Area",
-        "city": "Haldia",
-        "district": "Haldia",
-        "state": "West Bengal",
-        "pin": "721607"
-      }
-    },
-    "guardian": {
-      "father": {
-        "name": "Mr. Tanmoy Rakshi",
-        "phone": "+91 9832298702",
-        "occupation": "Doctor"
-      },
-      "mother": {
-        "name": "Mrs. Trina Rakshit",
-        "phone": "+91 9951039446",
-        "occupation": "Shop Owner"
-      }
-    },
-    "previousMarks": [
-      {
-        "semester": 1,
-        "sgpa": 6.37,
-        "result": "Passed"
-      },
-      {
-        "semester": 2,
-        "sgpa": 6.73,
-        "result": "Passed"
-      },
-      {
-        "semester": 3,
-        "sgpa": 6.6,
-        "result": "Passed"
-      },
-      {
-        "semester": 4,
-        "sgpa": 6.85,
-        "result": "Passed"
-      },
-      {
-        "semester": 5,
-        "sgpa": 7.52,
-        "result": "Passed"
-      },
-      {
-        "semester": 6,
-        "sgpa": 8.42,
-        "result": "Passed"
-      }
-    ],
-    "certificates": []
-  },
-  {
     "photo": "https://drive.google.com/open?id=1OBqqBKmBUyNI3TBpQr3H0KkFGTzym454",
     "basic": {
       "name": "Bikramjit Sarkar",
@@ -540,7 +370,7 @@
     },
     "guardian": {
       "father": {
-        "name": "Mr. Jayanta Sarka",
+        "name": "Mr. Jayanta Sarkar",
         "phone": "+91 9825148337",
         "occupation": "Shop Owner"
       },

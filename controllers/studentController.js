@@ -11,41 +11,31 @@ const sendError = (res, status, message) => {
 // ===========================
 export const getAllStudents = async (req, res) => {
   try {
-    const page = parseInt(req.query.page) || 1;
-    const limit = parseInt(req.query.limit) || 20;
-    const skip = (page - 1) * limit;
-
     const search = req.query.search || "";
 
-    const query = {
-      $or: [
-        { "personal.name": { $regex: search, $options: "i" } },
-        { "academic.registration": { $regex: search, $options: "i" } },
-        { "personal.email": { $regex: search, $options: "i" } },
-      ],
-    };
+    const query = search
+      ? {
+          $or: [
+            { "basic.name": { $regex: search, $options: "i" } },
+            { "academic.registration": { $regex: search, $options: "i" } },
+            { "contact.email": { $regex: search, $options: "i" } }
+          ]
+        }
+      : {};
 
-    const [students, total] = await Promise.all([
-      Student.find(search ? query : {})
-        .skip(skip)
-        .limit(limit)
-        .sort({ createdAt: -1 }),
-
-      Student.countDocuments(search ? query : {}),
-    ]);
+    const students = await Student.find(query).sort({ createdAt: -1 });
 
     res.status(200).json({
       success: true,
-      page,
-      totalPages: Math.ceil(total / limit),
-      totalStudents: total,
-      students,
+      totalStudents: students.length,
+      students
     });
   } catch (error) {
     console.error("Error fetching students:", error.message);
     sendError(res, 500, "Server error while fetching students");
   }
 };
+
 
 // ===========================
 // GET STUDENT BY REGISTRATION
